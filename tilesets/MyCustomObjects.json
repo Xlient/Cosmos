@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":2,
+ "tilecount":16,
  "tiledversion":"1.6.0",
- "tileheight":24,
+ "tileheight":120,
  "tiles":[
         {
          "id":0,
@@ -81,8 +81,149 @@
                  "value":true
                 }],
          "type":"globe"
+        }, 
+        {
+         "id":2,
+         "image":"..\/..\/.bundled\/objects\/fog_owl_controls\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"fo-computer"
+        }, 
+        {
+         "id":3,
+         "image":"..\/..\/.bundled\/objects\/controls-corey\/icon.png",
+         "imageheight":72,
+         "imagewidth":72,
+         "type":"fo-engine"
+        }, 
+        {
+         "id":4,
+         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/ducktypium-contained.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "type":"ducktypium-container"
+        }, 
+        {
+         "id":5,
+         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/ducktypium-released.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "type":"ducktypium-container"
+        }, 
+        {
+         "id":6,
+         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/fish-tank.png",
+         "imageheight":72,
+         "imagewidth":24,
+         "type":"ducktypium-container"
+        }, 
+        {
+         "id":7,
+         "image":"..\/..\/.bundled\/objects\/laser-up-off\/laser-up-active.png",
+         "imageheight":120,
+         "imagewidth":24
+        }, 
+        {
+         "id":8,
+         "image":"..\/..\/.bundled\/objects\/universe-display\/icon.png",
+         "imageheight":48,
+         "imagewidth":48
+        }, 
+        {
+         "id":11,
+         "image":"..\/objects\/octocat\/icon.png",
+         "imageheight":52,
+         "imagewidth":85,
+         "type":"octocat"
+        }, 
+        {
+         "id":12,
+         "image":"..\/objects\/octo_monster\/icon.png",
+         "imageheight":70,
+         "imagewidth":48,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "height":26,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"octo_monster",
+                     "visible":true,
+                     "width":28.6666666666667,
+                     "x":4.66666666666667,
+                     "y":10
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"octo_monster"
+        }, 
+        {
+         "id":13,
+         "image":"..\/objects\/battery\/battery_25x50px1.png",
+         "imageheight":25,
+         "imagewidth":18,
+         "type":"battery"
+        }, 
+        {
+         "id":14,
+         "image":"..\/objects\/FX_1\/1.png",
+         "imageheight":32,
+         "imagewidth":32
+        }, 
+        {
+         "id":15,
+         "image":"..\/objects\/portal\/icon.png",
+         "imageheight":100,
+         "imagewidth":100,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "id":2,
+             "name":"",
+             "objects":[
+                    {
+                     "ellipse":true,
+                     "height":43.3333333333333,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":42,
+                     "x":27.3333333333333,
+                     "y":27.3333333333333
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "type":"portal"
+        }, 
+        {
+         "id":16,
+         "image":"..\/..\/.bundled\/objects\/fo-engine\/icon.png",
+         "imageheight":96,
+         "imagewidth":48
+        }, 
+        {
+         "id":17,
+         "image":"..\/..\/.bundled\/objects\/hacking_tool\/icon.png",
+         "imageheight":48,
+         "imagewidth":24,
+         "type":"hacking-tool"
         }],
- "tilewidth":24,
+ "tilewidth":100,
  "type":"tileset",
  "version":"1.6"
 }

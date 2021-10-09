@@ -1,0 +1,15 @@
+{
+  "title": "Git Setup",
+  "description": "Create or Enter in your <strong> Github account username </strong>",
+  "validation_fields": [
+    {
+      "name": "userName",
+      "type": "text",
+      "placeholder": "type your username here",
+      "label": "What is your Github username?"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}
