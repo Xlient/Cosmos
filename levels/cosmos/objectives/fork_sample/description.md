@@ -21,15 +21,15 @@ Lets start by creating a workflow file. First fork this sample  repository found
 
 Here is an example :
 
-![example1]("levels\cosmos\objectives\fork_sample\example1.png")
+![example1]("..\example1.png")
 
 ##### After typing .github add "/" to create directory
 
-![example2]("levels\cosmos\objectives\fork_sample\example1.png")
+![example2]("..\example2.png")
 
 ##### Do the same to create the workflows folder
 
-![example3]("levels\cosmos\objectives\fork_sample\example1.png")
+![example3]("..\example3.png")
 
 name the file  `basic-workflow.yml`
 
