@@ -1,6 +1,6 @@
 module.exports = {
   spriteSheets: {
-    all_tiles: {
+    portal_tiles: {
         fileName: "all.png",
         frameDimensions: {
           width: 100,
@@ -24,7 +24,7 @@ events:{
 
 properties: {
   sprite: {
-    spriteSheet: "all_tiles",
+    spriteSheet: "portal_tiles",
     defaultFrameIndex: 0,
 
     useGidAsDefaultFrameIndex: false,

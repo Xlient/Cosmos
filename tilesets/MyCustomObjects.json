@@ -8,7 +8,7 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":18,
+ "tilecount":20,
  "tiledversion":"1.6.0",
  "tileheight":200,
  "tiles":[
@@ -118,12 +118,6 @@
          "type":"ducktypium-container"
         }, 
         {
-         "id":7,
-         "image":"..\/..\/.bundled\/objects\/laser-up-off\/laser-up-active.png",
-         "imageheight":120,
-         "imagewidth":24
-        }, 
-        {
          "id":8,
          "image":"..\/..\/.bundled\/objects\/universe-display\/icon.png",
          "imageheight":48,
@@ -168,16 +162,17 @@
         }, 
         {
          "id":13,
-         "image":"..\/objects\/battery\/battery_25x50px1.png",
+         "image":"..\/objects\/battery\/icon.png",
          "imageheight":25,
          "imagewidth":18,
          "type":"battery"
         }, 
         {
          "id":14,
-         "image":"..\/objects\/FX_1\/1.png",
+         "image":"..\/objects\/FX_1\/icon.png",
          "imageheight":32,
-         "imagewidth":32
+         "imagewidth":32,
+         "type":"FX_1"
         }, 
         {
          "id":15,
@@ -227,13 +222,36 @@
          "id":18,
          "image":"..\/objects\/planet1\/icon.png",
          "imageheight":100,
-         "imagewidth":100
+         "imagewidth":100,
+         "type":"planet1"
         }, 
         {
          "id":19,
          "image":"..\/objects\/star1\/icon.png",
          "imageheight":200,
-         "imagewidth":200
+         "imagewidth":200,
+         "type":"star1"
+        }, 
+        {
+         "id":20,
+         "image":"..\/objects\/smoke\/icon.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "type":"smoke"
+        }, 
+        {
+         "id":21,
+         "image":"..\/objects\/creature1\/icon.png",
+         "imageheight":48,
+         "imagewidth":48,
+         "type":"creature1"
+        }, 
+        {
+         "id":22,
+         "image":"..\/objects\/plant\/icon.png",
+         "imageheight":32,
+         "imagewidth":46,
+         "type":"plant"
         }],
  "tilewidth":200,
  "type":"tileset",

@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-      all_tiles: {
+      star1_tiles: {
           fileName: "stars.png",
           frameDimensions: {
             width: 100,
@@ -24,7 +24,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "all_tiles",
+      spriteSheet: "star1_tiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,
@@ -32,4 +32,4 @@ module.exports = {
       layers: [],
     },
   },
-    };
+ };

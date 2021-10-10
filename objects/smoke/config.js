@@ -1,17 +1,17 @@
 module.exports = {
     spriteSheets: {
-      mushroom_tiles: {
-          fileName: "Enemy-Mushroom-Walk-24x24.png",
+      smoke_tiles: {
+          fileName: "all.png",
           frameDimensions: {
-            width: 24,
-            height: 24,
+            width: 32,
+            height: 32,
           },
         },
   },
   animations: {
     active: {
-      frames: [0, 1, 2, 3, 4, 5],
-    frameRate: 4,
+      frames: [0, 1, 2, 3, 4, 5, 6, 7],
+    frameRate: 12,
     }
   }, 
   events:{
@@ -22,7 +22,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "mushroom_tiles",
+      spriteSheet: "smoke_tiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,

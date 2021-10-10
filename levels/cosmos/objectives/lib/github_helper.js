@@ -1,7 +1,7 @@
 const {  octokit } = require("@octokit/core");
 
 
-function getFileContents( user ,filePath) {
+async function getFileContents( user ,filePath) {
   const response  = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}',{
     mediaType: {
       format: "raw",
@@ -21,7 +21,7 @@ function getFileContents( user ,filePath) {
       }
 }
 
-function getWorkflow(user, workflowName)
+async function getWorkflow(user, workflowName)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}', {
     owner: user,
@@ -37,7 +37,7 @@ function getWorkflow(user, workflowName)
  return response;
 }
 
-isWorkflowDisabled(user, workflowName)
+async function isWorkflowDisabled(user, workflowName)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}', {
     owner: user,
@@ -53,7 +53,7 @@ isWorkflowDisabled(user, workflowName)
   return false;
 }
 
-function findJob(user, workflowName, jobName)
+async function findJob(user, workflowName, jobName)
 {
   let jobs = listJobs(user, workflowName);
   let job = {};
@@ -67,7 +67,7 @@ function findJob(user, workflowName, jobName)
   return job;
 }
 
-function listJobs( user, workflowName)
+async function listJobs( user, workflowName)
 {
   let runID = getWorkflowRuns(user, workflowName);
 
@@ -90,7 +90,7 @@ function listJobs( user, workflowName)
    return [];
 }
 
-function getWorkflowRuns(user, workflowName)
+async function getWorkflowRuns(user, workflowName)
 {   
     let workflow_id;
 

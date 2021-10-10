@@ -1,6 +1,6 @@
 module.exports = {
   spriteSheets: {
-    all_tiles: {
+    octonid_tiles: {
         fileName: "purple_octonid.png",
         frameDimensions: {
           width: 48,
@@ -24,7 +24,7 @@ events:{
 
 properties: {
   sprite: {
-    spriteSheet: "all_tiles",
+    spriteSheet: "octonid_tiles",
     defaultFrameIndex: 0,
 
     useGidAsDefaultFrameIndex: false,

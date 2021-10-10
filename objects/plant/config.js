@@ -1,16 +1,16 @@
 module.exports = {
     spriteSheets: {
-      mushroom_tiles: {
-          fileName: "Enemy-Mushroom-Walk-24x24.png",
+      plant_tiles: {
+          fileName: "Enemy-Plant-Mutant-Idle-Attack-46x32.png",
           frameDimensions: {
-            width: 24,
-            height: 24,
+            width: 46,
+            height: 32,
           },
         },
   },
   animations: {
     active: {
-      frames: [0, 1, 2, 3, 4, 5],
+      frames: [0, 1, 2, 3, 4],
     frameRate: 4,
     }
   }, 
@@ -22,7 +22,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "mushroom_tiles",
+      spriteSheet: "plant_tiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,

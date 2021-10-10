@@ -1,10 +1,10 @@
 module.exports = {
     spriteSheets: {
-      mushroom_tiles: {
-          fileName: "Enemy-Mushroom-Walk-24x24.png",
+      creature_tiles: {
+          fileName: "Enemy-Boss-Golem-Idle-48x48.png",
           frameDimensions: {
-            width: 24,
-            height: 24,
+            width: 48,
+            height: 48,
           },
         },
   },
@@ -22,7 +22,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "mushroom_tiles",
+      spriteSheet: "creature_tiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,

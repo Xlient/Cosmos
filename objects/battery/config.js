@@ -1,6 +1,6 @@
 module.exports = {
     spriteSheets: {
-        all_tiles: {
+        battery_tiles: {
             fileName: "all.png",
             frameDimensions: {
               width: 25,
@@ -23,7 +23,7 @@ module.exports = {
 
     properties: {
       sprite: {
-        spriteSheet: "all_tiles",
+        spriteSheet: "battery_tiles",
         defaultFrameIndex: 0,
 
         useGidAsDefaultFrameIndex: false,

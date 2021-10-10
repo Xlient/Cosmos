@@ -2,12 +2,12 @@
 
 const assert = require("assert");
 const got = require("got")
-const { isValidAccount } = require("../lib/github_helper");
+
 
 
 module.exports = async function (helper) {
   
-  const { userName } = helper.getNormalizedInput('answer1', {lowerCase: false})
+  const { userName } = helper.validationFields;
   
   
   if (!userName) {
@@ -22,7 +22,7 @@ module.exports = async function (helper) {
       {
         return helper.success(`Success!`,
         
-        [{name: `GH_USERNAME`, value: username}]
+        [{name: `GH_USERNAME`, value: userName}]
         );
       }
       else
