@@ -94,7 +94,7 @@
          "image":"..\/..\/.bundled\/objects\/controls-corey\/icon.png",
          "imageheight":72,
          "imagewidth":72,
-         "type":"fo-engine"
+         "type":"controls-corey"
         }, 
         {
          "id":4,
@@ -127,7 +127,8 @@
          "id":8,
          "image":"..\/..\/.bundled\/objects\/universe-display\/icon.png",
          "imageheight":48,
-         "imagewidth":48
+         "imagewidth":48,
+         "type":"universe-display"
         }, 
         {
          "id":11,
@@ -144,7 +145,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -187,7 +187,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
@@ -214,14 +213,15 @@
          "id":16,
          "image":"..\/..\/.bundled\/objects\/fo-engine\/icon.png",
          "imageheight":96,
-         "imagewidth":48
+         "imagewidth":48,
+         "type":"fo-engine"
         }, 
         {
          "id":17,
          "image":"..\/..\/.bundled\/objects\/hacking_tool\/icon.png",
          "imageheight":48,
          "imagewidth":24,
-         "type":"hacking-tool"
+         "type":"hacking_tool"
         }],
  "tilewidth":100,
  "type":"tileset",
