@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":16,
+ "tilecount":18,
  "tiledversion":"1.6.0",
- "tileheight":120,
+ "tileheight":200,
  "tiles":[
         {
          "id":0,
@@ -222,8 +222,20 @@
          "imageheight":48,
          "imagewidth":24,
          "type":"hacking_tool"
+        }, 
+        {
+         "id":18,
+         "image":"..\/objects\/planet1\/icon.png",
+         "imageheight":100,
+         "imagewidth":100
+        }, 
+        {
+         "id":19,
+         "image":"..\/objects\/star1\/icon.png",
+         "imageheight":200,
+         "imagewidth":200
         }],
- "tilewidth":100,
+ "tilewidth":200,
  "type":"tileset",
  "version":"1.6"
 }
