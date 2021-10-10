@@ -16,8 +16,8 @@ module.exports = {
       }
     }, 
     events:{
-      mapDidLoad: (self) => {
-      self.playAnimation("power_on");
+      onMapDidLoad: (self) => {
+      self.playAnimation("power_on",true);
       },
     },
 

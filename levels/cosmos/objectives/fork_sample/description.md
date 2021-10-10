@@ -9,7 +9,7 @@
 </ul>
 </div>
 
-“ ![GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push a you can run a script or perhaps deploy an application“ These events trigger a workflow file.
+“ [GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push a you can run a script or perhaps deploy an application“ These events trigger a workflow file.
 
 ## Workflows
 
@@ -17,19 +17,19 @@
  
 ## Create a workflow file
 
-Lets start by creating a workflow file. First fork this sample  repository found ![here](https://github.com/Xlient/IceCreamstore). In the repository create a folder called `.github`  and within `/.github`  directory create another new folder called `workflows` with a file called  `basic-workflow.yml`.
+Lets start by creating a workflow file. First fork this sample  repository found [here](https://github.com/Xlient/IceCreamstore). In the repository create a folder called `.github`  and within `/.github`  directory create another new folder called `workflows` with a file called  `basic-workflow.yml`.
 
 Here is an example :
 
-![example1]("example1.png")
+![example1]("levels\cosmos\objectives\fork_sample\example1.png")
 
 ##### After typing .github add "/" to create directory
 
-![example2]("example2.png")
+![example2]("levels\cosmos\objectives\fork_sample\example1.png")
 
 ##### Do the same to create the workflows folder
 
-![example3]("example3.png")
+![example3]("levels\cosmos\objectives\fork_sample\example1.png")
 
 name the file  `basic-workflow.yml`
 

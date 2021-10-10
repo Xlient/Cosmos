@@ -11,12 +11,12 @@ module.exports = {
   animations: {
     active: {
       frames: [0, 1, 2, 3, 4, 5, 6, 7],
-    frameRate: 12,
+    frameRate: 6,
     }
   }, 
   events:{
-    mapDidLoad: (self) => {
-    self.playAnimation("active");
+    onMapDidLoad: (self) => {
+    self.playAnimation("active",true);
     },
   },
   

@@ -15,7 +15,7 @@ module.exports = {
     }
   }, 
   events:{
-    mapDidLoad: (self) => {
+    onMapDidLoad: (self) => {
     self.playAnimation("active");
     },
   },

@@ -16,8 +16,8 @@ module.exports = {
     },
 
 events:{
-  mapDidLoad: (self) => {
-  self.playAnimation("idle");
+  onMapDidLoad: (self) => {
+  self.playAnimation("idle",true);
   },
 },
 properties: {

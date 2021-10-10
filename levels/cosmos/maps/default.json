@@ -242,16 +242,16 @@
                  "y":367.811252268602
                 }, 
                 {
-                 "gid":11040,
+                 "gid":11041,
                  "height":32,
-                 "id":142,
+                 "id":143,
                  "name":"",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":32,
-                 "x":405.246218995765,
-                 "y":310.252873563219
+                 "x":402.270022883295,
+                 "y":311.24942791762
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -313,7 +313,7 @@
          "y":0
         }],
  "nextlayerid":45,
- "nextobjectid":143,
+ "nextobjectid":144,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.6.0",

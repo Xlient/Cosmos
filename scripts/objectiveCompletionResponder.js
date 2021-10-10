@@ -33,7 +33,7 @@ function createObjectiveCompletionResponderConfig(props = {}) {
     },
     events: {
       onLevelDidLoad: initialize,
-      onMapDidLoad: initialize,
+      ononMapDidLoad: initialize,
       onObjectiveCompleted,
       onObjectiveCompletedAgain: onObjectiveCompleted,
     },
