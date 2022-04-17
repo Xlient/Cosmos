@@ -1,5 +1,5 @@
 
-<h1 align="center"> <img src="https://media4.giphy.com/media/vHOQiwqf332JDIz7oL/giphy.gif?cid=790b7611a6ba08da16d9afd69c2948259b48a6c546dffa15&rid=giphy.gif&ct=s" width="332" height="332">  <p>Welcome to the Cosmos <p>  <a href="https://github.com/Xlient/Cosmos/edit/main/README.md#getting-started"><img src="https://media.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" width="132" height="132"> </a></h1>
+<h1 align="center"> <img src="https://media4.giphy.com/media/vHOQiwqf332JDIz7oL/giphy.gif?cid=790b7611a6ba08da16d9afd69c2948259b48a6c546dffa15&rid=giphy.gif&ct=s" width="332" height="332">  <p>Welcome to the Cosmos <p>  <a href="https://github.com/Xlient/Cosmos#getting-started"><img src="https://media.giphy.com/media/1YfBz5TnsrqEGOJwc0/giphy.gif" width="132" height="132"> </a></h1>
 
 ## Summary 
 
