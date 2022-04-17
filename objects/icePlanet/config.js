@@ -1,7 +1,7 @@
 module.exports = {
     spriteSheets: {
-      planet1_tiles: {
-          fileName: "planets.png",
+      icePlanet_tiles: {
+          fileName: "icePlanet.png",
           frameDimensions: {
             width: 100,
             height: 100,
@@ -17,19 +17,20 @@ module.exports = {
     }
   }, 
   events:{
-    onMapDidLoad: (self) => {
-    self.playAnimation("idle",true);
-    },
+
   },
   
   properties: {
     sprite: {
-      spriteSheet: "planet1_tiles",
+      spriteSheet: "icePlanet_tiles",
       defaultFrameIndex: 0,
-  
       useGidAsDefaultFrameIndex: false,
-      
       layers: [],
     },
+    idleAnimations: {
+      animations: { idle: 100 },
+      minIdleTime: 0,
+      maxIdleTime: 0,
+    },
   },
-    };
+};

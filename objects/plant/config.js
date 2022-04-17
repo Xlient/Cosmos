@@ -14,11 +14,11 @@ module.exports = {
     frameRate: 4,
     }
   }, 
-  events:{
-    onMapDidLoad: (self) => {
-    self.playAnimation("active",true);
-    },
-  },
+  // events:{
+  //   onMapDidLoad: (self) => {
+  //   self.playAnimation("active",true);
+  //   },
+  // },
   
   properties: {
     sprite: {
