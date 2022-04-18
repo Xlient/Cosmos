@@ -1,0 +1,13 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "../../../../twq-Csharp/levels/botnet/extensions",
+    "folders": [
+        "../../../../twq-Csharp/levels/botnet/maps",
+        "../../../../twq-Csharp/levels/botnet/maps",
+        "../../../../twq-Csharp/levels/botnet/maps",
+        "../../../../twq-Csharp/levels/botnet/maps"
+    ],
+    "objectTypesFile": ""
+}
