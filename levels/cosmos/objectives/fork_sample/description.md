@@ -21,15 +21,16 @@ Lets start by creating a workflow file. First fork this sample  repository found
 
 Here is an example :
 
-![example1]("..\example1.png")
+![image](https://user-images.githubusercontent.com/35268101/163737133-c582cdeb-922d-4f69-8b9f-4b45044ed289.png)
 
-##### After typing .github add "/" to create directory
+##### After typing *** .github** add "/" to create the directory
+![image](https://user-images.githubusercontent.com/35268101/163737179-418566f1-9435-432c-9129-7b2afbf54a35.png)
 
-![example2]("..\example2.png")
 
 ##### Do the same to create the workflows folder
+![image](https://user-images.githubusercontent.com/35268101/163737191-1654c435-a8cd-492f-9282-bb3e36d64905.png)
 
-![example3]("..\example3.png")
+
 
 name the file  `basic-workflow.yml`
 
