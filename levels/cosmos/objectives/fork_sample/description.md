@@ -1,4 +1,4 @@
-# What are Github Actions
+# Getting the flow of things
 
 <div class="aside">
 <h3>To-Do List</h3>
