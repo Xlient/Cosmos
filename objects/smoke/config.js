@@ -1,7 +1,7 @@
 module.exports = {
     spriteSheets: {
-      smoke_tiles: {
-          fileName: "all.png",
+      smokeFxTiles: {
+          fileName: "smokeEffect.png",
           frameDimensions: {
             width: 32,
             height: 32,
@@ -22,7 +22,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "smoke_tiles",
+      spriteSheet: "smokeFxTiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,

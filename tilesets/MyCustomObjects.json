@@ -8,8 +8,8 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":20,
- "tiledversion":"1.6.0",
+ "tilecount":9,
+ "tiledversion":"1.8.4",
  "tileheight":200,
  "tiles":[
         {
@@ -83,55 +83,6 @@
          "type":"globe"
         }, 
         {
-         "id":2,
-         "image":"..\/..\/.bundled\/objects\/fog_owl_controls\/icon.png",
-         "imageheight":48,
-         "imagewidth":48,
-         "type":"fo-computer"
-        }, 
-        {
-         "id":3,
-         "image":"..\/..\/.bundled\/objects\/controls-corey\/icon.png",
-         "imageheight":72,
-         "imagewidth":72,
-         "type":"controls-corey"
-        }, 
-        {
-         "id":4,
-         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/ducktypium-contained.png",
-         "imageheight":72,
-         "imagewidth":24,
-         "type":"ducktypium-container"
-        }, 
-        {
-         "id":5,
-         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/ducktypium-released.png",
-         "imageheight":72,
-         "imagewidth":24,
-         "type":"ducktypium-container"
-        }, 
-        {
-         "id":6,
-         "image":"..\/..\/.bundled\/objects\/ducktypium-container\/fish-tank.png",
-         "imageheight":72,
-         "imagewidth":24,
-         "type":"ducktypium-container"
-        }, 
-        {
-         "id":8,
-         "image":"..\/..\/.bundled\/objects\/universe-display\/icon.png",
-         "imageheight":48,
-         "imagewidth":48,
-         "type":"universe-display"
-        }, 
-        {
-         "id":11,
-         "image":"..\/objects\/octocat\/icon.png",
-         "imageheight":52,
-         "imagewidth":85,
-         "type":"octocat"
-        }, 
-        {
          "id":12,
          "image":"..\/objects\/octo_monster\/icon.png",
          "imageheight":70,
@@ -159,13 +110,6 @@
              "y":0
             },
          "type":"octo_monster"
-        }, 
-        {
-         "id":13,
-         "image":"..\/objects\/battery\/icon.png",
-         "imageheight":25,
-         "imagewidth":18,
-         "type":"battery"
         }, 
         {
          "id":14,
@@ -205,27 +149,6 @@
          "type":"portal"
         }, 
         {
-         "id":16,
-         "image":"..\/..\/.bundled\/objects\/fo-engine\/icon.png",
-         "imageheight":96,
-         "imagewidth":48,
-         "type":"fo-engine"
-        }, 
-        {
-         "id":17,
-         "image":"..\/..\/.bundled\/objects\/hacking_tool\/icon.png",
-         "imageheight":48,
-         "imagewidth":24,
-         "type":"hacking_tool"
-        }, 
-        {
-         "id":18,
-         "image":"..\/objects\/planet1\/icon.png",
-         "imageheight":100,
-         "imagewidth":100,
-         "type":"planet1"
-        }, 
-        {
          "id":19,
          "image":"..\/objects\/star1\/icon.png",
          "imageheight":200,
@@ -247,13 +170,13 @@
          "type":"creature1"
         }, 
         {
-         "id":22,
-         "image":"..\/objects\/plant\/icon.png",
-         "imageheight":32,
-         "imagewidth":46,
-         "type":"plant"
+         "id":23,
+         "image":"..\/objects\/icePlanet\/icon.png",
+         "imageheight":100,
+         "imagewidth":100,
+         "type":"icePlanet"
         }],
  "tilewidth":200,
  "type":"tileset",
- "version":"1.6"
+ "version":"1.8"
 }
