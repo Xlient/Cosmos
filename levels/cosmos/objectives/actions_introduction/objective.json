@@ -1,0 +1,21 @@
+{
+  "title": "Ready for Action",
+  "description": "Get ready to learn about <strong>CI/CD and Github actions</strong>",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "boolean",
+      "placeholder": "",
+      "label": "Continous intergation is a practice that enables application development teams to release incremental code changes to production quickly and regularly."
+    },
+    {
+      "name": "answer2",
+      "type": "boolean",
+      "placeholder": "",
+      "label": "CD can help development teams build , test and realse software faster"
+    }
+  ],
+  "rewards": {
+    "xp": 100
+  }
+}

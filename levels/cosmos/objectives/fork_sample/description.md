@@ -13,7 +13,7 @@
 
 ## Workflows
 
- A workflow is an automated procedure that you add to your repository in the `.github/` folder. They’re made of one or more jobs and can be scheduled or triggered by an event. As previously mentioned an event is what triggers a workflow, an event could be pushing to a branch, creating a pull request or issue. Workflows can also be triggered manually.
+ A workflow is an automated process made of one or more jobs and can be scheduled or triggered by an event. As previously mentioned an event is what triggers a workflow, an event could be pushing to a branch, creating a pull request or issue. Workflows can also be triggered manually.
  
 ## Create a workflow file
 
