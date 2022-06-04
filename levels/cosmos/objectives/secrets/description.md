@@ -8,9 +8,9 @@
 </ul>
 </div>
 
-## Whats a secret? 
+Whats a secret? 
 
-Much like the ones to tell in real, they are pieces of private information used to gain access to protected resources like applications. Like a real secrect you dont want to tell it to everybody or put it directly in your code. Help Bob out by Creating a secret in the repository to store his secret. Then by creating another file called `bobs-secret.yml`
+Much like the ones you might tell in real life, they are pieces of private information. In software development used to gain access to protected resources like applications. Like a real secret you dont want to make it known to everybody or put it directly in your code. Help Bob out by Creating a secret in the repository to store his secret. Then by creating another file called `bobs-secret.yml`
 It should look something like this:
 
 ```yml
