@@ -8,9 +8,9 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":9,
+ "tilecount":8,
  "tiledversion":"1.8.4",
- "tileheight":200,
+ "tileheight":380,
  "tiles":[
         {
          "id":0,
@@ -112,50 +112,6 @@
          "type":"octo_monster"
         }, 
         {
-         "id":14,
-         "image":"..\/objects\/FX_1\/icon.png",
-         "imageheight":32,
-         "imagewidth":32,
-         "type":"FX_1"
-        }, 
-        {
-         "id":15,
-         "image":"..\/objects\/portal\/icon.png",
-         "imageheight":100,
-         "imagewidth":100,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "name":"",
-             "objects":[
-                    {
-                     "ellipse":true,
-                     "height":43.3333333333333,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":42,
-                     "x":27.3333333333333,
-                     "y":27.3333333333333
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "type":"portal"
-        }, 
-        {
-         "id":19,
-         "image":"..\/objects\/star1\/icon.png",
-         "imageheight":200,
-         "imagewidth":200,
-         "type":"star1"
-        }, 
-        {
          "id":20,
          "image":"..\/objects\/smoke\/icon.png",
          "imageheight":32,
@@ -163,20 +119,67 @@
          "type":"smoke"
         }, 
         {
-         "id":21,
-         "image":"..\/objects\/creature1\/icon.png",
-         "imageheight":48,
-         "imagewidth":48,
-         "type":"creature1"
-        }, 
-        {
          "id":23,
          "image":"..\/objects\/icePlanet\/icon.png",
          "imageheight":100,
          "imagewidth":100,
          "type":"icePlanet"
+        }, 
+        {
+         "id":25,
+         "image":"..\/objects\/trees\/icon.png",
+         "imageheight":256,
+         "imagewidth":160,
+         "type":"trees"
+        }, 
+        {
+         "id":26,
+         "image":"..\/objects\/oldman1\/icon.png",
+         "imageheight":32,
+         "imagewidth":32,
+         "type":"oldman1"
+        }, 
+        {
+         "id":27,
+         "image":"..\/objects\/Obelisk\/icon.png",
+         "imageheight":380,
+         "imagewidth":190,
+         "objectgroup":
+            {
+             "draworder":"index",
+             "name":"",
+             "objects":[
+                    {
+                     "height":35,
+                     "id":1,
+                     "name":"",
+                     "rotation":0,
+                     "type":"",
+                     "visible":true,
+                     "width":65,
+                     "x":60,
+                     "y":320
+                    }],
+             "opacity":1,
+             "type":"objectgroup",
+             "visible":true,
+             "x":0,
+             "y":0
+            },
+         "properties":[
+                {
+                 "name":"hackable",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
+                 "name":"objectiveName",
+                 "type":"string",
+                 "value":"example_objective"
+                }],
+         "type":"Obelisk"
         }],
- "tilewidth":200,
+ "tilewidth":190,
  "type":"tileset",
  "version":"1.8"
 }
