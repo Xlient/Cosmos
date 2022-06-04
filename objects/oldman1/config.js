@@ -1,7 +1,7 @@
 module.exports = {
     spriteSheets: {
-      smokeFxTiles: {
-          fileName: "smokeEffect.png",
+      oldmanSpriteSheet: {
+          fileName: "oldman_walk.png",
           frameDimensions: {
             width: 32,
             height: 32,
@@ -9,25 +9,26 @@ module.exports = {
         },
   },
   animations: {
-    active: {
-      frames: [0, 1, 2, 3, 4, 5, 6, 7],
-    frameRate: 6,
+    idle: {
+      frames: [0, 1, 2],
+    frameRate: 2,
     }
   }, 
   events:{
-    onMapDidLoad: (self) => {
-    self.playAnimation("active",true);
-    },
+    //
   },
   
   properties: {
     sprite: {
-      spriteSheet: "smokeFxTiles",
+      spriteSheet: "oldmanSpriteSheet",
       defaultFrameIndex: 0,
-  
       useGidAsDefaultFrameIndex: false,
-      
       layers: [],
     },
+    idleAnimations: {
+        animations: { idle: 500 },
+        minIdleTime: 0,
+        maxIdleTime: 0,
+      },
   },
-    };
+};
