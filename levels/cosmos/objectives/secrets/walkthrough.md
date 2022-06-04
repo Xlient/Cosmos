@@ -1,5 +1,6 @@
 # The "Help" Tab
 
-We may remove this tab and content in the future, but in the current iteration of TwilioQuest, this is where you would put more hand-holdy content intended to guide the player through what needed to be done.
+Click on the video below to learn about using secrects in your workflows.
 
-We find that what works better is linking to external resources on the web, rather than recreatign a tutorial here.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oaHBW9Il4Wg?start=1029" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

@@ -9,7 +9,7 @@
 </ul>
 </div>
 
-“ [GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push a you can run a script or perhaps deploy an application“ These events trigger a workflow file.
+“ [GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push code or open a pull request you can run a script or perhaps deploy an application. These events are what triggers a workflow file to run.
 
 ## Workflows
 

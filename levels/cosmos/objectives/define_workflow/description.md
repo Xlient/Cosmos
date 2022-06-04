@@ -10,7 +10,6 @@
 </div>
 
 Now we have our workflow but it doesn't do much since its empty so lets add some  jobs to make it do something!
-Github actions ues the ![YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html#yaml-basics) syntax to define the events, jobs , and steps inside a workflow. **Note YAML is case sensitive and doesnt alow the use of tabs**
 
 Using YAML syntax lets give our workflow a name and define a event
 
@@ -22,7 +21,7 @@ Using YAML syntax lets give our workflow a name and define a event
 
 ## Jobs & Steps
 
-  Jobs are what make up a workflow and is essentially a set of `steps` that execute on the same runner, by default these jobs will run in parallel. A step is an individual task that can run commands in a job. A step can be either an `action` or a shell command. They execute on the same runner, allowing the actions in that job to share data with each other.
+  Jobs are what make up a workflow and is essentially are a set of `steps` that execute on the same runner, by default these jobs will run in parallel. A step is an individual task that can run commands in a job. A step can be either an `action` or a shell command. They execute on the same runner, allowing the actions in that job to share data with each other.
 
 Example of a job:
 
@@ -50,7 +49,7 @@ name: basic-workflow
 on: [push]
 jobs:
   say-hello:
-    runs-on: windows-latest // REPLACE ME with your OS
+    runs-on: ubuntu-latest 
     steps:
       uses: actions/checkout@v2
       - run: touch hello.txt
