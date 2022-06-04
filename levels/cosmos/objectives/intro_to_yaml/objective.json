@@ -1,0 +1,27 @@
+{
+  "title": "Intro to Yaml",
+  "description": "Learn the basics of Yaml",
+  "validation_fields": [
+    {
+      "name": "answer1",
+      "type": "text",
+      "placeholder": "",
+      "label": "Yaml is used to represent ____."
+    },
+    {
+      "name": "answer2",
+      "type": "boolean",
+      "placeholder": "",
+      "label": "True or false: Yaml is sensitive to indentation."
+    },
+    {
+      "name": "answer3",
+      "type": "boolean",
+      "placeholder": "",
+      "label": "True or false: A key/value pair is seperated by a comma."
+    }
+  ],
+  "rewards": {
+    "xp": 150
+  }
+}

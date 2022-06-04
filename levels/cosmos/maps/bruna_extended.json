@@ -160,8 +160,8 @@
                  "type":"player",
                  "visible":true,
                  "width":0,
-                 "x":608.667991269888,
-                 "y":598.252158766215
+                 "x":740.447822527421,
+                 "y":621.8225350887
                 }, 
                 {
                  "height":7,
@@ -199,7 +199,7 @@
                         {
                          "name":"objectiveName",
                          "type":"string",
-                         "value":"user_setup"
+                         "value":"disable_workflow"
                         }],
                  "rotation":0,
                  "type":"",
@@ -213,6 +213,17 @@
                  "height":141.073389580822,
                  "id":44,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"hackable",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"starter_workflow"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -273,12 +284,18 @@
                  "height":114.297576001071,
                  "id":50,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"objectiveName",
+                         "type":"string",
+                         "value":"starter_workflow"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":80.7191643230212,
-                 "x":587.469532610151,
-                 "y":272.4963171287
+                 "x":579.969867416633,
+                 "y":209.284853354761
                 }, 
                 {
                  "height":89.1514664523905,
@@ -316,8 +333,8 @@
                  "type":"",
                  "visible":true,
                  "width":16,
-                 "x":289.843846256864,
-                 "y":232.418909870095
+                 "x":290.915226998795,
+                 "y":217.419579483059
                 }],
          "opacity":0.9,
          "type":"objectgroup",
@@ -403,7 +420,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0

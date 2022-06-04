@@ -1,4 +1,4 @@
-const {  octokit } = require("@octokit/core");
+import { octokit } from "octokit";
 
 
 async function getFileContents( user ,filePath) {
@@ -111,6 +111,19 @@ async function getWorkflowRuns(user, workflowName)
    return workflow_id | undefined;
 }
 
+async function getArtifact(user)
+{
+  let response = await octokit.request('GET /repos/{owner}/{repo}/actions/artifacts', {
+    owner: user,
+    repo: 'IceCreamstore'
+  });
+
+  if(response.message.includes("Not found") )
+ {
+   return false;
+ }
+ return response;
+}
 
 module.exports  = {
   findJob,

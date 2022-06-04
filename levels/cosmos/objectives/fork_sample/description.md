@@ -1,4 +1,4 @@
-# What are Github Actions
+# Getting the flow of things
 
 <div class="aside">
 <h3>To-Do List</h3>
@@ -9,11 +9,11 @@
 </ul>
 </div>
 
-“ [GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push a you can run a script or perhaps deploy an application“ These events trigger a workflow file.
+“ [GitHub Actions](https://github.com/features/actions) help you automate tasks within your software development life cycle. GitHub Actions are event-driven, meaning that you can run a series of commands after a specified event has occurred. For example, every time  you push code or open a pull request you can run a script or perhaps deploy an application. These events are what triggers a workflow file to run.
 
 ## Workflows
 
- A workflow is an automated procedure that you add to your repository in the `.github/` folder. They’re made of one or more jobs and can be scheduled or triggered by an event. As previously mentioned an event is what triggers a workflow, an event could be pushing to a branch, creating a pull request or issue. Workflows can also be triggered manually.
+ A workflow is an automated process made of one or more jobs and can be scheduled or triggered by an event. As previously mentioned an event is what triggers a workflow, an event could be pushing to a branch, creating a pull request or issue. Workflows can also be triggered manually.
  
 ## Create a workflow file
 
