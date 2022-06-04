@@ -8,7 +8,7 @@
  "margin":0,
  "name":"MyCustomObjects",
  "spacing":0,
- "tilecount":9,
+ "tilecount":8,
  "tiledversion":"1.8.4",
  "tileheight":380,
  "tiles":[
@@ -112,36 +112,6 @@
          "type":"octo_monster"
         }, 
         {
-         "id":15,
-         "image":"..\/objects\/portal\/icon.png",
-         "imageheight":100,
-         "imagewidth":100,
-         "objectgroup":
-            {
-             "draworder":"index",
-             "name":"",
-             "objects":[
-                    {
-                     "ellipse":true,
-                     "height":43.3333333333333,
-                     "id":1,
-                     "name":"",
-                     "rotation":0,
-                     "type":"",
-                     "visible":true,
-                     "width":42,
-                     "x":27.3333333333333,
-                     "y":27.3333333333333
-                    }],
-             "opacity":1,
-             "type":"objectgroup",
-             "visible":true,
-             "x":0,
-             "y":0
-            },
-         "type":"portal"
-        }, 
-        {
          "id":20,
          "image":"..\/objects\/smoke\/icon.png",
          "imageheight":32,
@@ -177,7 +147,6 @@
          "objectgroup":
             {
              "draworder":"index",
-             "id":2,
              "name":"",
              "objects":[
                     {
