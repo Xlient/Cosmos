@@ -1,0 +1,27 @@
+conversation(display_name="Cedric")
+  case lastResponse
+    when "next"
+      statement#final
+      responses
+
+
+    default
+      statement#default
+      responses
+        response#next.
+          Next
+
+  statements
+    statement#default
+      text.
+       Collision avoidance system #[span.highlight failed]  FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed  
+       JavaScript heap out of memory 1: 000000013F56F04A v8::internal::GCIdleTimeHandler::GCIdleTimeHandler+5114
+       2: 000000013F54A0C6 node::MakeCallback+4518 3: 000000013F54AA30 node_module_register+2032
+      speech.
+       Collision avoidance system #[break(strength="medium")] failed FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed  
+       JavaScript heap out of memory 1: 000000013F56F04A v8::internal::GCIdleTimeHandler::GCIdleTimeHandler+5114
+       2: 000000013F54A0C6 node::MakeCallback+4518 3: 000000013F54AA30 node_module_register+2032
+    statement#final
+      text.
+         Main engine 2 has failed. Engaging emergency landing.
+        
