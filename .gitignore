@@ -106,3 +106,5 @@ dist
 #tiled
 levels/cosmos/maps/cosmos.tiled-session
 /cosmos.tiled-session
+.vscode/settings.json
+

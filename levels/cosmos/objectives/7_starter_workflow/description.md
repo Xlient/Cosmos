@@ -50,4 +50,14 @@ and
 
 ```
 
-Commit your changes and click the _HACK_ button.
+finally
+
+```yml
+  #- name: Upload build artifacts
+  #    uses: actions/upload-artifact@v3
+  #    with:
+  #      name: MSIX Package
+  #      path: ${{ env.Wap_Project_Directory }}\AppPackages
+```
+
+Once you're done, commit your changes and click the _HACK_ button.

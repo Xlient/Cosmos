@@ -10,7 +10,8 @@
 
 Whats a secret? 
 
-Much like the ones you might tell in real life, they are pieces of private information. In software development used to gain access to protected resources like applications. Like a real secret you dont want to make it known to everybody or put it directly in your code. Help Bob out by Creating a secret in the repository to store his secret. Then by creating another file called `bobs-secret.yml`
+Much like the ones you might tell in real life, they are pieces of private information. In software development secrets are used to gain access to protected resources like applications. Like a real secret you don't want to make it known to everybody or put it directly in your code. Help Bob out by [Creating a secret in the repository](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to store his secret. Then by using it your workflow, you should name your workflow `bobs-secret.yml`
+
 It should look something like this:
 
 ```yml
