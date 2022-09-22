@@ -1,10 +1,12 @@
+ const {handleShipCrash, handleEscape, destroyRedAlertDiv} = require("./events/handleShipCrash")
 module.exports = function(event, world) {
   
-  if (event.name === "conversationDidEnd" && event.npc.conversation === "kevinDefault")
+  handleShipCrash(event, world);
+  handleEscape(event, world)
+
+  if (event.name == "mapDidLoad" && event.mapName == "bruna")
   {
-    world.disablePlayerMovement();
-    world.screenShake(5,8000);
-    world.startConversation("cedricMalfunction","cedricNeutral.png", 2000);
-    world.enablePlayerMovement();
+    destroyRedAlertDiv();
   }
 }
+

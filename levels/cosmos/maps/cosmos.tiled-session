@@ -3,38 +3,79 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/owl_corridor.json",
+    "activeFile": "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestObjects.json",
     "expandedProjectPaths": [
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet",
-        "E:/TWQ-Extension/twq-Csharp/levels",
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps",
-        "E:/TWQ-Extension/twq-Csharp",
+        "E:/TWQ-Extension/twq-Csharp/levels/botnet",
         "E:/TWQ-Extension/twq-Csharp/tilesets",
+        "E:/TWQ-Extension/twq-Csharp",
+        "E:/TWQ-Extension/twq-Csharp/levels",
         "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "": {
+            "dynamicWrapping": false,
             "scaleInDock": 1,
             "scaleInEditor": 1
+        },
+        "#Decorative": {
+            "scaleInDock": 1
+        },
+        "#MainLev": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "#MyCustomObjects": {
+            "scaleInDock": 1
         },
         "E:/TWQ-Extension/.bundled/tilesets/Tileset_FogOwl.json": {
             "scaleInDock": 1
         },
         "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestNPCs.json": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 2,
             "scaleInEditor": 1
         },
         "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestObjects.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "E:/TWQ-Extension/Cosmos/tilesets/CosmosCustomObjects.json": {
             "dynamicWrapping": true,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "E:/TWQ-Extension/Cosmos/tilesets/MyCustomObjects.json": {
             "dynamicWrapping": true,
-            "scaleInDock": 1,
+            "scaleInDock": 0.5,
             "scaleInEditor": 1
+        },
+        "E:/TWQ-Extension/DocsHarbor/levels/destination_template/maps/default.json": {
+            "scale": 0.9289713541666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 371.3785128600462,
+                "y": 384.8342560796131
+            }
+        },
+        "E:/TWQ-Extension/DocsHarbor/levels/destination_template/maps/default.json#Harbor": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "E:/TWQ-Extension/DocsHarbor/levels/destination_template/maps/default.json#Ships": {
+            "scaleInDock": 1
+        },
+        "E:/TWQ-Extension/DocsHarbor/levels/destination_template/maps/default.json#TwilioQuestTileset": {
+            "scaleInDock": 1
+        },
+        "E:/TWQ-Extension/DocsHarbor/levels/destination_template/maps/default.json#water": {
+            "scaleInDock": 1
+        },
+        "E:/TWQ-Extension/DocsHarbor/tilesets/MyCustomObjects.json": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
         },
         "E:/TWQ-Extension/TQ-Extension-Cloudinary-Video-main/levels/cloudinary_video/maps/default.json": {
             "scale": 1.1927777777777777,
@@ -121,11 +162,11 @@
             "scaleInDock": 1
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json": {
-            "scale": 1.5,
-            "selectedLayer": 4,
+            "scale": 0.75,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 432,
-                "y": 412.66666666666663
+                "x": 239.99999999999994,
+                "y": 185.99999999999997
             }
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json#CustomObjects": {
@@ -145,7 +186,7 @@
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json#TwilioQuestTileset": {
             "dynamicWrapping": false,
-            "scaleInDock": 1.5,
+            "scaleInDock": 1,
             "scaleInEditor": 1
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/my_map.json": {
@@ -184,8 +225,8 @@
             "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 369,
-                "y": 298.5
+                "x": 408.5,
+                "y": 539.5
             }
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/owl_corridor.json#Tileset_Javascript": {
@@ -200,8 +241,8 @@
             "scale": 1.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 384,
-                "y": 456
+                "x": 378.3333333333333,
+                "y": 450.3333333333333
             }
         },
         "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/research_lab.json#Tileset_FogOwl": {
@@ -275,12 +316,102 @@
             "dynamicWrapping": true,
             "scaleInDock": 1
         },
+        "bruna.json": {
+            "scale": 0.75,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 560,
+                "y": 559.3333333333333
+            }
+        },
+        "bruna.json#Decorative": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna.json#MainLev": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna.json#MyCustomObjects": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "bruna.json#Tileset_BlueOwl": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna.json#TwilioQuestTileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna.tmj": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 522,
+                "y": 281
+            }
+        },
+        "bruna.tmj#Decorative": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna.tmj#MainLev": {
+            "scaleInDock": 1
+        },
+        "bruna_extended.json": {
+            "scale": 0.933375,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 539.9758939333066,
+                "y": 332.1280299986608
+            }
+        },
+        "bruna_extended.json#Decorative": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna_extended.json#MainLev": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna_extended.json#MyCustomObjects": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "bruna_extended.json#Tileset_BlueOwl": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna_extended.json#TwilioQuestTileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna_extended2.tmj": {
+            "scale": 0.015625,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1248,
+                "y": -2304
+            }
+        },
+        "bruna_extended2.tmj#Decorative": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "bruna_extended2.tmj#MainLev": {
+            "scaleInDock": 1
+        },
+        "bruna_extended2.tmj#MyCustomObjects": {
+            "scaleInDock": 1
+        },
         "default.json": {
-            "scale": 0.9289713541666667,
+            "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 391.83124255378794,
-                "y": 482.79206671806014
+                "x": 489,
+                "y": 655
             }
         },
         "default.json#Tileset_BlueOwl": {
@@ -298,10 +429,10 @@
         },
         "ice_planet.json": {
             "scale": 0.7822916666666666,
-            "selectedLayer": 4,
+            "selectedLayer": 6,
             "viewCenter": {
-                "x": 396.27163781624506,
-                "y": 459.5472703062584
+                "x": 658.9613848202398,
+                "y": 749.081225033289
             }
         },
         "ice_planet.json#24cloud_tileset": {
@@ -328,11 +459,11 @@
             "scaleInDock": 1
         },
         "mayors_office.json": {
-            "scale": 0.8493452380952381,
+            "scale": 0.84,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 403.8404933772514,
-                "y": 290.22356156703336
+                "x": 300,
+                "y": 299.40476190476187
             }
         },
         "mayors_office.json#Tileset_API-Interior": {
@@ -345,10 +476,10 @@
         },
         "octo_planet.json": {
             "scale": 1.1894791666666666,
-            "selectedLayer": 7,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 606.1476486557491,
-                "y": 516.6126631053507
+                "x": 406.06007531307466,
+                "y": 85.33146510202292
             }
         },
         "octo_planet.json#Enviroment": {
@@ -375,46 +506,124 @@
         "octo_planet.json#tiles_garden": {
             "dynamicWrapping": false,
             "scaleInDock": 1
+        },
+        "sura_empire.json": {
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 600,
+                "y": 510
+            }
+        },
+        "sura_empire.json#Back": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5
+        },
+        "sura_empire.json#Clouds": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5
+        },
+        "sura_empire.json#CosmosCustomObjects": {
+            "scaleInDock": 1
+        },
+        "sura_empire.json#MyCustomObjects": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "sura_empire.json#Tilemap": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        },
+        "sura_empire.json#TwilioQuestTileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "sura_empire.json#cloud_tileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "sura_empire.json#gothic_city_tiles": {
+            "scaleInDock": 1
+        },
+        "tilesets/CosmosCustomObjects.json": {
+            "scaleInDock": 1
+        },
+        "tilesetsCosmosCustomObjects.json": {
+            "scaleInDock": 1
+        },
+        "twisted_jungle.json": {
+            "scale": 0.8493452380952381,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 98.89971266381662,
+                "y": 364.3983460648959
+            }
+        },
+        "twisted_jungle.json#TwilioQuestTileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "twisted_jungle.json#Water+": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "twisted_jungle.json#big-tree": {
+            "dynamicWrapping": false
+        },
+        "twisted_jungle.json#forest": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "twisted_jungle.json#tf_jungle_tileset": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "twisted_jungle.json#tiles_garden": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
         }
     },
     "last.exportedFilePath": "E:/TWQ-Extension/twq-Csharp/tilesets",
     "last.externalTilesetPath": "E:/TWQ-Extension/.bundled/tilesets",
-    "last.imagePath": "E:/TWQ-Extension/.bundled/tilesets",
+    "last.imagePath": "E:/TWQ-Extension/.bundled/objects/ducktypium-container",
     "lastUsedTilesetExportFilter": "JSON tileset files (*.json)",
     "map.height": 35,
     "map.lastUsedExportFilter": "JSON map files (*.json)",
     "map.lastUsedFormat": "json",
-    "map.tileHeight": 24,
-    "map.tileWidth": 24,
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
     "map.width": 35,
     "openFiles": [
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json",
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/owl_corridor.json",
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/research_lab.json",
-        "E:/TWQ-Extension/twq-Csharp/tilesets/TwilioQuestCsharpObjects.json"
+        "sura_empire.json",
+        "E:/TWQ-Extension/Cosmos/tilesets/MyCustomObjects.json",
+        "mayors_office.json",
+        "default.json",
+        "bruna.json",
+        "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestObjects.json"
     ],
     "project": "cosmos.tiled-project",
     "property.type": "string",
     "recentFiles": [
-        "ice_planet.json",
-        "E:/TWQ-Extension/Cosmos/tilesets/MyCustomObjects.json",
-        "E:/TWQ-Extension/twq-Csharp/tilesets/TwilioQuestCsharpObjects.json",
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/research_lab.json",
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/owl_corridor.json",
-        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json",
-        "E:/TWQ-Extension/TheFooBar/levels/destination_template/maps/default.json",
+        "sura_empire.json",
         "default.json",
-        "octo_planet.json",
-        "E:/TWQ-Extension/warped-city/levels/destination_template/maps/default.json",
-        "E:/TWQ-Extension/twq-Csharp/tilesets/MyCustomObjects.json",
-        "E:/TWQ-Extension/twq-Csharp/tilesets/testObjects.json"
+        "bruna.json",
+        "E:/TWQ-Extension/Cosmos/tilesets/MyCustomObjects.json",
+        "mayors_office.json",
+        "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestObjects.json",
+        "bruna_extended.json",
+        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/default.json",
+        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/research_lab.json",
+        "bruna_extended2.tmj",
+        "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestNPCs.json",
+        "E:/TWQ-Extension/twq-Csharp/levels/botnet/maps/owl_corridor.json"
     ],
     "tileset.embedInMap": true,
     "tileset.lastUsedFilter": "All Files (*)",
     "tileset.lastUsedFormat": "json",
     "tileset.tileSize": {
-        "height": 24,
-        "width": 24
+        "height": 32,
+        "width": 32
     },
     "tileset.type": 0
 }

@@ -103,6 +103,6 @@ dist
 
 # TernJS port file
 .tern-port
+#tiled
 levels/cosmos/maps/cosmos.tiled-session
-levels/cosmos/maps/cosmos.tiled-session
-levels/cosmos/maps/cosmos.tiled-session
+/cosmos.tiled-session

@@ -4,18 +4,11 @@ conversation(display_name="Kevin")
       statement#final
       responses
 
-
-    when "plans_pt2"
-      statement#mission_pt2
-      responses
-        response#what_can_i_do.
-         What can i do in the meantime?
-  
     when "what_is_the_mission"
       statement#mission_pt1
       responses
-        response#plans_pt2.
-         What are you planning to do?
+        response#what_can_i_do.
+         What can i do in the meantime?
 
     when "who_are_you"
       statement#kevin
@@ -41,11 +34,7 @@ conversation(display_name="Kevin")
     statement#mission_pt1
       text.
         Great question! Currently we are on an expedition to explore a newly found galaxy we recently named #[span.highlight Cosmos]
-        It has been said the that planets in the cosmos have something powerful called #[span.highlight Github Actions] that do tasks for them.
-    statement#mission_pt2
-      text.
-        During expedition our team plans to gather more information about Actions and see if it can help us in our fight against the legacy systems!
-        
     statement#final
       text.
         According to the autopilot we should approaching the Cosmos soon. Why dont you take a look around the ship until we arrive?
+        The Lead scientist of this expedition is in the lab if you have anymore questions.
