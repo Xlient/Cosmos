@@ -1,0 +1,29 @@
+conversation(display_name="Kevin")
+  case lastResponse
+    when "got_it"
+      statement#final
+      responses
+
+    when "what_to_do"
+      statement#instructions
+      responses
+        response#got_it.
+          Got it!
+
+    default
+      statement#default
+      responses
+        response#what_to_do.
+          What should we do now?
+
+  statements
+    statement#default
+      text.
+       You've got to be kidding me, just as we're about to land!
+    statement#instructions
+      text.
+        Listen Operator we dont have  alot of time, your going to need to go ahead of us in the escape pods located down the hall
+        to your right. All us of will catch up somewhere in the Cosmos. Got it?
+    statement#final
+      text.
+         Good, Now hurry and get in a escape pod! Well be in contact soon!

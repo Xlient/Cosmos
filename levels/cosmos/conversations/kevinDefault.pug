@@ -1,0 +1,40 @@
+conversation(display_name="Kevin")
+  case lastResponse
+    when "what_can_i_do"
+      statement#final
+      responses
+
+    when "what_is_the_mission"
+      statement#mission_pt1
+      responses
+        response#what_can_i_do.
+         What can i do in the meantime?
+
+    when "who_are_you"
+      statement#kevin
+      responses
+        response#what_is_the_mission.
+         What are you doing aboard the falcon?
+
+    default
+      statement#default
+      responses
+        response#who_are_you.
+          Hello, who are you?
+
+  statements
+    statement#default
+      text.
+        Welcome aboard the #[span.highlight the falcon!]
+      speech.
+        Welcome aboard the #[break(strength="medium")] falcon!
+    statement#kevin
+      text.
+        Sorry i forgot to introduce myself. Im Kevin the Captain of the fog owl and now the falcon. We've met before some time ago.
+    statement#mission_pt1
+      text.
+        Great question! Currently we are on an expedition to explore a newly found galaxy we recently named #[span.highlight Cosmos]
+    statement#final
+      text.
+        According to the autopilot we should approaching the Cosmos soon. Why dont you take a look around the ship until we arrive?
+        The Lead scientist of this expedition is in the lab if you have anymore questions.

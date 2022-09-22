@@ -1,0 +1,40 @@
+conversation(display_name="TwilioQuest Scientist")
+  case lastResponse
+    when "im_in"
+      statement#final
+      responses
+
+    when "next"
+      statement#cosmos_pt2
+      responses
+        response#im_in.
+          Im in!
+
+    when "what_is_cosomos"
+      statement#cosmos
+      responses
+        response#next.
+          next
+    default
+      statement#default
+      responses
+        response#what_is_cosomos.
+          What is this "Cosmos"?
+
+  statements
+    statement#default
+      text.
+        Hi Operator! Welcome aboard the #[span.highlight Falcon!]
+    statement#cosmos
+      text.
+        Ah Yes.. im sure you've heard a little bit from Kevin. From what we know Cosmos is a relatively small galaxy filled with many planets.
+        Each of the planets are diverse, independant, and capable of sustaining life. Each planet has a portal called a pipeline in which they use to 
+        travel throughout the galaxy.
+    statement#cosmos_pt2
+      text.
+        During our expedition we hope to learn more about Github Actions and how they're being used throughout the galaxy.
+        This may just be what we need to fight the legacy systems! Are you in?
+        
+    statement#final
+      text.
+        Fantastic! We should be arriving to the Cosmos shortly, right Cedric?

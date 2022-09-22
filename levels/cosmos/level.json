@@ -1,7 +1,7 @@
 {
   "title": "Cosmos",
   "description": "Action packed journey through the Cosmos",
-  "questTitle": "Comos",
+  "questTitle": "Cosmos",
   "questDescription": "Example level for VR training. See what's possible!",
   "mission_icon": "mission_icon.png",
   "is_mission": true,
@@ -12,7 +12,7 @@
     "options": {}
   },
   "flavorTextOverrides": {
-    "bookshelf": "There's nothing like a good book."
+    "scroll_1": "There's nothing like a good book."
   },
   "objectives": ["user_setup", "example_objective2"]
 }

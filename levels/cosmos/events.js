@@ -1,5 +1,12 @@
+ const {handleShipCrash, handleEscape, destroyRedAlertDiv} = require("./events/handleShipCrash")
 module.exports = function(event, world) {
-  console.log(`VR Template: ${event.name}`);
-  console.log(event);
-  console.log(world);
+  
+  handleShipCrash(event, world);
+  handleEscape(event, world)
+
+  if (event.name == "mapDidLoad" && event.mapName == "bruna")
+  {
+    destroyRedAlertDiv();
+  }
 }
+

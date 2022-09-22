@@ -300,7 +300,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -496,8 +496,8 @@
                 {
                  "id":15,
                  "image":"..\/..\/..\/objects\/portal\/icon.png",
-                 "imageheight":100,
-                 "imagewidth":100,
+                 "imageheight":185,
+                 "imagewidth":190,
                  "objectgroup":
                     {
                      "draworder":"index",
