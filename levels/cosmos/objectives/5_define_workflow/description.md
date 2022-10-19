@@ -51,7 +51,7 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest 
     steps:
-      uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       - run: touch hello.txt
       - run: echo "Hello actions" > hello.txt
 

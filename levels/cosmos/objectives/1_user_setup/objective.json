@@ -7,6 +7,12 @@
       "type": "text",
       "placeholder": "type your username here",
       "label": "What is your Github username?"
+    },
+    {
+      "name": "PAT",
+      "type": "text",
+      "placeholder": "paste your token here",
+      "label": "Personal access token:"
     }
   ],
   "rewards": {

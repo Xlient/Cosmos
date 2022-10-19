@@ -245,6 +245,30 @@
                  "width":32,
                  "x":316,
                  "y":844
+                }, 
+                {
+                 "height":0,
+                 "id":50,
+                 "name":"player_entry_dev",
+                 "point":true,
+                 "rotation":0,
+                 "type":"player",
+                 "visible":true,
+                 "width":0,
+                 "x":612,
+                 "y":853
+                }, 
+                {
+                 "gid":10531,
+                 "height":32,
+                 "id":52,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":32,
+                 "x":557,
+                 "y":979
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -306,7 +330,7 @@
          "y":0
         }],
  "nextlayerid":17,
- "nextobjectid":50,
+ "nextobjectid":53,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.8.4",
