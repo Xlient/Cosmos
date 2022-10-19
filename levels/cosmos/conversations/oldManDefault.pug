@@ -1,0 +1,64 @@
+conversation(display_name="Old man")
+  case lastResponse
+    when "go_to_portal"
+      statement#final
+      responses
+
+    when "where_is_the_portal"
+      statement#portal
+      responses
+        response#go_to_portal.
+           Thanks for the information
+
+    when "find_friends"
+      statement#pipeline
+      responses
+        response#where_is_the_portal.
+            Where can i find the portal?
+
+    when "ship_location"
+      statement#no_ship_location
+      responses
+        response#find_friends.
+          Another planet , how am i going to find them with out a ship?
+
+    when "where_am_i"
+      statement#bruna
+      responses
+        response#ship_location.
+          Have you seen our spacecraft or anyone else from the ship?
+
+    default
+      statement#default
+      responses
+        response#where_am_i.
+           I landed here after my spaceship crashed ... where am i?
+
+  statements
+    statement#default
+      text.
+       Oh! Greetings.. What brings you to this side of the forest?
+    statement#bruna
+      text.
+        I see.. You are now in Bruna, it is but a small planet covered in ancient forests. These mythical forests 
+        have been around for tens of thousands of years with the Fang Clan protecting them and their secrets...
+
+    statement#no_ship_location
+      text.
+         Sorry kid! i haven't heard anything. You're the only outsider i've seen roaming about.  We dont get many
+         visitors here so your friends are probably on a different planet.
+
+    statement#pipeline
+      text.
+        Well... there is a way, but that requires that you get the ancient portal working to travel. That thing hasn't worked for generations
+         In the past there have been many attempts to get the portal to the pipeline functional again and restore access to the outside world.
+         *Sigh* but no one has been able to light all the obelisks in the forest, but you can try kid. 
+
+    statement#portal
+      text.
+         Wait you're really going to attempt to light all the obelisks?! A pity.. i was looking for new disciples.
+         oh yes.. the portal is located in on east side of the forest , following the obelisks should lead you right to it.
+
+    statement#final
+      text.
+        Now if you'll excuse me i must get back to my morning meditation 

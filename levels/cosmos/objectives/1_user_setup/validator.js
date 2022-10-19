@@ -8,6 +8,7 @@ const got = require("got")
 module.exports = async function (helper) {
   
   const { userName } = helper.validationFields;
+  const { PAT } = helper.validationFields;
   
   
   if (!userName) {
@@ -22,7 +23,11 @@ module.exports = async function (helper) {
       {
         return helper.success(`Success!`,
         
-        [{name: `GH_USERNAME`, value: userName}]
+        [
+          {name: `  TQ_GH_USERNAME`, value: userName},
+          {name: ` TQ_GH_PAT`, value: PAT}
+        
+        ]
         );
       }
       else

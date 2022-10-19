@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@octokit/core": "^3.5.1",
+    "@octokit/rest": "^19.0.5",
     "got": "^11.8.2",
     "octokit": "^1.7.0",
     "ramda": "^0.27.1"

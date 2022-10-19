@@ -1,10 +1,14 @@
+const { Octokit, App } = require("octokit");
 const { isWorkflowDisabled } = require("../lib/github_helper");
 
 module.exports = async function (helper) {
-  const { GH_USERNAME } = helper.env;
-
+  const {   TQ_GH_USERNAME } = helper.env;
+  const {  TQ_GH_PAT } = helper.env;
+  const octokit = new Octokit({
+      auth:  TQ_GH_PAT
+ })
   try {
-    if (isWorkflowDisabled(GH_USERNAME, "basic-workflow.yml") === false) {
+    if (isWorkflowDisabled(octokit,   TQ_GH_USERNAME, "basic-workflow.yml") === false) {
       return helper.fail(`
         Looks like your workflow is still active, Try disabling it.
       `);

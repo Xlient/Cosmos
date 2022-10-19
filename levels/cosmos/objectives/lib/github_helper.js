@@ -1,7 +1,6 @@
-import { octokit } from "octokit";
+ 
 
-
-async function getFileContents( user ,filePath) {
+async function getFileContents(octokit, user ,filePath) {
   const response  = await octokit.request('GET /repos/{owner}/{repo}/contents/{path}',{
     mediaType: {
       format: "raw",
@@ -21,7 +20,7 @@ async function getFileContents( user ,filePath) {
       }
 }
 
-async function getWorkflow(user, workflowName)
+async function getWorkflow(octokit, user, workflowName)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}', {
     owner: user,
@@ -37,7 +36,7 @@ async function getWorkflow(user, workflowName)
  return response;
 }
 
-async function isWorkflowDisabled(user, workflowName)
+async function isWorkflowDisabled(octokit, user, workflowName)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}', {
     owner: user,
@@ -53,12 +52,13 @@ async function isWorkflowDisabled(user, workflowName)
   return false;
 }
 
-async function findJob(user, workflowName, jobName)
+async function findJob(octokit, user, workflowName, jobName)
 {
-  let jobs = listJobs(user, workflowName);
+  let jobs = await listJobs(octokit, user, workflowName);
   let job = {};
+  console.log(jobs)
   jobs.forEach( jb => {
-
+    console.log(jb)
     if (jb.name === jobName) {
       job = jb;
     }
@@ -67,9 +67,9 @@ async function findJob(user, workflowName, jobName)
   return job;
 }
 
-async function listJobs( user, workflowName)
+async function listJobs(octokit,  user, workflowName)
 {
-  let runID = getWorkflowRuns(user, workflowName);
+  let runID = await getWorkflowRuns(octokit, user, workflowName);
 
   if(runID === undefined)
   {
@@ -82,43 +82,42 @@ async function listJobs( user, workflowName)
     run_id:  runID
   })
 
-
-  if(response.statusCode === 200)
+  console.log(response);
+  if(response.status === 200)
       {
-        return response.jobs;
+        
+        return response.data.jobs;
       }
-   return [];
 }
 
-async function getWorkflowRuns(user, workflowName)
+ async function getWorkflowRuns(octokit, user, workflowName)
 {   
-    let workflow_id;
+    let workflow_runId;
 
     let response = await octokit.request('GET /repos/{owner}/{repo}/actions/runs', {
     owner:  user,
     repo: 'IceCreamstore'
   })
 
-   
-   response.workflow_runs.forEach( run => {
-
+    response.data.workflow_runs.forEach( run => {
      if(run.name === workflowName)
      {
-          workflow_id = run.id;
+           
+          workflow_runId = run.id;
      }
    })
-  
-   return workflow_id | undefined;
+    
+   return workflow_runId;
 }
 
-async function getArtifact(user)
+async function getArtifact(octokit, user)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/artifacts', {
     owner: user,
     repo: 'IceCreamstore'
   });
 
-  if(response.message.includes("Not found") )
+  if(response.status == 404 )
  {
    return false;
  }
@@ -129,6 +128,7 @@ module.exports  = {
   findJob,
   getFileContents,
   getWorkflow,
+  getArtifact,
   getWorkflowRuns,
   isWorkflowDisabled,
   listJobs,
