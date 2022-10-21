@@ -1,5 +1,5 @@
 /**
- * red overlay originally from the owls-nest extention
+ * red overlay originally from the owls-nest extension
  * see: https://github.com/TwilioQuest/owls-nest-extension/blob/8f49c56e7f968f4029ff24fdb726b7a5a7cb744b/levels/owls_nest/events/handleFredric.js
  */
 const overlayCss = `

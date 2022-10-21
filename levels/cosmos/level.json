@@ -15,5 +15,5 @@
     
   },
   "objectives": ["1_user_setup", "2_intro_to_cicd" , "3_intro_to_yaml" , "4_create_workflow_file" ,
-                 "5_define_workflow" , "6_disable_workflow" ,"7_starter_workflow" ,"secrets", "upload_artifacts" ,"example_objective2"]
+                 "5_define_workflow" , "6_disable_workflow" ,"7_starter_workflow" ,"9_secrets", "8_upload_artifacts" ,"example_objective2"]
 }

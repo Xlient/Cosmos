@@ -1,0 +1,29 @@
+conversation(display_name="Old Man")
+  case lastResponse
+    when "thanks"
+      statement#final
+      responses
+
+    when "next_stop"
+      statement#sura_empire
+      responses
+        response#thanks.
+          Thanks for your help
+
+    default
+      statement#default
+      responses
+        response#next_stop.
+          Where will the portal take me next?
+
+  statements
+    statement#default
+      text.
+        My word! Its open, after all these  years of it being inactive i never thought i'd see the day!
+    statement#sura_empire
+      text.
+         If i recall correctly , i believe this portal will take you to the Sura Empire. Maybe you'll find some clues on the whereabouts 
+         of your friends. Perhaps one of them landed there shortly after you did. 
+    statement#final
+      text.
+         No problem kid, this is only the beginning ... Hopefully we'll see each other again. Farewell!

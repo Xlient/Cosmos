@@ -1,0 +1,31 @@
+conversation(display_name="Alex")
+  case lastResponse
+    when "on_guard"
+    when "nervous"
+      statement#final
+      responses
+
+    when "who_are_you"
+      statement#ryan
+      responses
+        response#on_guard.
+          Why are you guarding this cave?
+        response#nervous.
+          Why are you so nervous?
+
+    default
+      statement#default
+      responses
+        response#who_are_you.
+          Hello ...?
+
+  statements
+    statement#default
+      text.
+        ** Mumble ** I wish Jake would hurry up, im tired of standing on guard  ** Mumble **
+    statement#ryan
+      text.
+         Oh! heh..Hello.. * nervous sweat * n-n-nothing to see here!!
+    statement#final
+      text.
+        What!? me!? No way! i-im not nervous or guarding anything. Nope! You must be mistaken! Bye!

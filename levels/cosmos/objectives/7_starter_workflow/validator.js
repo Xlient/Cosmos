@@ -1,5 +1,5 @@
 const { Octokit, App } = require("octokit");
-const { getWorkflow } = require("../lib/example_helper");
+const { getWorkflow } = require("../lib/github_helper");
 
 
 module.exports = async function (helper) {
@@ -24,6 +24,6 @@ module.exports = async function (helper) {
  }
 
   helper.success(`
-    Sucess!
+    Success!
   `);
 };

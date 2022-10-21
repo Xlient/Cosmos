@@ -1,26 +1,30 @@
+const createObjectiveCompletionResponderConfig = require("../../scripts/objectiveCompletionResponder");
 module.exports = {
+  ...createObjectiveCompletionResponderConfig(),
+  animations: {
+    objectiveNotCompleted: {
+      frames: [2],
+      frameRate: 1,
+    },
+    objectiveCompleting: {
+      frames: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
+              21, 23, 24, 25, 26, 27],
+      frameRate: 6,
+    },
+    objectiveCompleted: {
+      frames: [23, 24, 25,26, 27],
+      frameRate: 3,
+    },
+  },
   spriteSheets: {
     portal_tiles: {
-        fileName: "all.png",
+        fileName: "portal_animated.png",
         frameDimensions: {
-          width: 100,
-          height: 100,
+          width: 190,
+          height: 185,
         },
       },
-},
-animations: {
-  active: {
-    frames: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ,11 ,12, 13, 14,
-             15, 16, 17, 18, 19, 20, 21,22, 23 ,24, 25, 26, 27, 28, 29, 30,
-             31, 32, 33, 34, 35, 36, 37, 38, 39,40],
-  frameRate: 12,
-  }
 }, 
-events:{
-  onMapDidLoad: (self) => {
-  self.playAnimation("active",true);
-  },
-},
 
 properties: {
   sprite: {
