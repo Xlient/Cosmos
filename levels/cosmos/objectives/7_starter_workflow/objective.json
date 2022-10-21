@@ -3,7 +3,6 @@
   "description": " Use <strong> starter workflows </strong> your repositories",
   "validation_fields": [],
   "rewards": {
-    "xp": 150,
-    "items": ["black_cat_ears"]
+    "xp": 150
   }
 }

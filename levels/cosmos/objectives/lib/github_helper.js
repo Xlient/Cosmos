@@ -28,7 +28,7 @@ async function getWorkflow(octokit, user, workflowName)
     workflow_id: workflowName
   })
 
- if(response.message.includes("Not found") )
+ if(response.statusCode == 404 )
  {
    return false;
  }
@@ -110,25 +110,25 @@ async function listJobs(octokit,  user, workflowName)
    return workflow_runId;
 }
 
-async function getArtifact(octokit, user)
+async function checkIfArtifactIsPresent(octokit, user)
 {
   let response = await octokit.request('GET /repos/{owner}/{repo}/actions/artifacts', {
     owner: user,
     repo: 'IceCreamstore'
   });
 
-  if(response.status == 404 )
+  if(response.statusCode == 404 )
  {
    return false;
  }
- return response;
+ return true;
 }
 
 module.exports  = {
   findJob,
   getFileContents,
   getWorkflow,
-  getArtifact,
+  checkIfArtifactIsPresent,
   getWorkflowRuns,
   isWorkflowDisabled,
   listJobs,

@@ -1,0 +1,28 @@
+conversation(display_name="Knight")
+  case lastResponse
+    when "new_content"
+      statement#final
+      responses
+
+    when "why"
+      statement#no_more_content
+      responses
+        response#new_content.
+          When will new content be available?
+
+    default
+      statement#default
+      responses
+        response#why.
+          wait , why not?
+
+  statements
+    statement#default
+      text.
+        Halt! You shall not pass. 
+    statement#no_more_content
+      text.
+         You've reached the end of playable content for this extension and we're not allowed to let anyone in until more content is available!
+    statement#final
+      text.
+         Soon!

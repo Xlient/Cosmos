@@ -317,11 +317,11 @@
             "scaleInDock": 1
         },
         "bruna.json": {
-            "scale": 0.75,
+            "scale": 1,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 560,
-                "y": 559.3333333333333
+                "x": 608,
+                "y": 549.5
             }
         },
         "bruna.json#Decorative": {
@@ -361,10 +361,10 @@
         },
         "bruna_extended.json": {
             "scale": 0.933375,
-            "selectedLayer": 4,
+            "selectedLayer": 7,
             "viewCenter": {
-                "x": 539.9758939333066,
-                "y": 332.1280299986608
+                "x": 377.1260211597697,
+                "y": 333.7351011115575
             }
         },
         "bruna_extended.json#Decorative": {
@@ -410,8 +410,8 @@
             "scale": 1,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 489,
-                "y": 655
+                "x": 487,
+                "y": 431
             }
         },
         "default.json#Tileset_BlueOwl": {
@@ -462,8 +462,8 @@
             "scale": 0.84,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 300,
-                "y": 299.40476190476187
+                "x": 295.2380952380952,
+                "y": 308.9285714285714
             }
         },
         "mayors_office.json#Tileset_API-Interior": {
@@ -511,8 +511,8 @@
             "scale": 1,
             "selectedLayer": 4,
             "viewCenter": {
-                "x": 600,
-                "y": 510
+                "x": 432,
+                "y": 856.5
             }
         },
         "sura_empire.json#Back": {
@@ -527,6 +527,7 @@
             "scaleInDock": 1
         },
         "sura_empire.json#MyCustomObjects": {
+            "dynamicWrapping": true,
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -605,9 +606,9 @@
     "project": "cosmos.tiled-project",
     "property.type": "string",
     "recentFiles": [
-        "sura_empire.json",
-        "default.json",
         "bruna.json",
+        "default.json",
+        "sura_empire.json",
         "E:/TWQ-Extension/Cosmos/tilesets/MyCustomObjects.json",
         "mayors_office.json",
         "E:/TWQ-Extension/.bundled/tilesets/TwilioQuestObjects.json",

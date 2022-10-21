@@ -1,17 +1,17 @@
 module.exports = {
     spriteSheets: {
-      clanMemberTiles: {
-          fileName: "member.png",
+      soldierTiles: {
+          fileName: "knights2.png",
           frameDimensions: {
-            width: 52,
+            width: 76,
             height: 72,
           },
         },
   },
   animations: {
     active: {
-      frames: [58],
-    frameRate: 1,
+      frames: [24,25, 26],
+    frameRate: 3,
     }
   }, 
   events:{
@@ -22,7 +22,7 @@ module.exports = {
   
   properties: {
     sprite: {
-      spriteSheet: "clanMemberTiles",
+      spriteSheet: "soldierTiles",
       defaultFrameIndex: 0,
   
       useGidAsDefaultFrameIndex: false,
