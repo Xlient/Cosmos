@@ -25,4 +25,4 @@ Once you have enabled extensions, you should see a listing of automatically-inst
 
 
 ## License
-[This template](https://github.com/TwilioQuest/twilioquest-extension-template) is open source under the MIT license.
+This project is open source under the MIT license.
