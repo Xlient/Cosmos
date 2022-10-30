@@ -3,7 +3,9 @@
 
 ## Get ready for an action packed journey through the Cosmos while learning about Github Actions. ☄ 
 ## Getting started
-Download the latest stable version of Cosmos [here](https://github.com/Xlient/Cosmos/releases)
+
+- If you do not have TwilioQuest downloaded you can download the game for free [here](https://www.twilio.com/quest)
+- Download the latest stable version of Cosmos [here](https://github.com/Xlient/Cosmos/releases)
 
 **NOTE:** TwilioQuest Extensions are only available in the **3.2** version of the game. As of spring 2021, the current stable version of the game is 3.1.x. You may need to use the launcher to select the "3.2 Preview" release channel to use a version of the game that supports extensions.
 
@@ -23,6 +25,10 @@ Once you have enabled extensions, specify a folder on your computer where you wi
 
 Once you have enabled extensions, you should see a listing of automatically-installed "base extensions", and a list of any extensions you have installed yourself. Now you are ready to play
 
-
+## Contributing 💻
+ if you are interested in fixing issues and contributing directly to the code base, a great way to get started is by checking out our [contributing guidelines](.github/CONTRIBUTING.md) (Still a work in progress) as it outlines how you can contribute to this project.  Also you're welcome to ask questions in [Github Discussions](https://github.com/Xlient/tq-CSharp/discussions) about levels, objectives and so forth.
+ 
+ Keep and eye out for `Help wanted` or `good first issue` labels in the issues tab! Or just jump in.
+ 
 ## License
 This project is open source under the MIT license.
