@@ -7,7 +7,7 @@
 - If you do not have TwilioQuest downloaded you can download the game for free [here](https://www.twilio.com/quest)
 - Download the latest stable version of Cosmos [here](https://github.com/Xlient/Cosmos/releases)
 
-**NOTE:** TwilioQuest Extensions are only available in the **3.2** version of the game. As of spring 2021, the current stable version of the game is 3.1.x. You may need to use the launcher to select the "3.2 Preview" release channel to use a version of the game that supports extensions.
+**NOTE:** TwilioQuest Extensions are only available from version 3.2 and onward. If you're on an older version of TwilioQuest extensions will not be supported
 
 ![Launcher for 3.2](https://firebasestorage.googleapis.com/v0/b/twilioquest-prod.appspot.com/o/docs%2Flauncher-preview.png?alt=media&token=6aedd709-9ba2-4ab3-b935-2537a8f5ff2f)
 
